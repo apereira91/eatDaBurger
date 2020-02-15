@@ -1,0 +1,1 @@
+INSERT INTO burger (devoured, burger_name) VALUES (true, 'California Burger');

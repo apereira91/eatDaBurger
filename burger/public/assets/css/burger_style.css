@@ -1,0 +1,69 @@
+body {
+    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/17/25/burger-seamless-pattern-with-cute-fast-vector-19081725.jpg")
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 10rem !important;
+    padding: 10px !important;
+    font-family: 'Bangers', cursive;
+  
+  }
+  
+  .orderBox{
+    margin-top: 10% !important;
+  }
+  
+  .row {
+    
+    background-color: rgb(200, 151, 59);
+    margin-bottom: 0% !important;
+    border: solid brown;
+    margin-bottom: 10% !important;
+  }
+  
+  button{
+    font-size: 3rem !important;
+  }
+  
+  li {
+    padding: 2%;
+    margin: 2%;
+    background: #faebd7;
+    font-size: 3rem;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .col{
+    text-align: center;
+  }
+  
+  .create-form {
+    padding: 20px !important;
+    margin: 10px !important;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  #bb {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    font-size: 4rem;
+  }
+  
+  
+  h2 {
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 6rem !important;
+  }

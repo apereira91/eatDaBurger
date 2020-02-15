@@ -1,0 +1,39 @@
+<div class="orderBox row">
+  <div class="col s12">
+    <h1>EAT DA BURGER</h1>
+    <form class="create-form">
+      <h3><i class="far fa-clipboard fa-2x"> Order a burger</i></h3>
+      <div class="form-group">
+        <input type="text" id="bb" name="name" placeholder="Enter in a burger">
+      </div>
+
+      <button class="btn waves-effect waves-light btn-large" type="submit" name="action">Submit Order</button>
+    </form>
+  </div>
+  {{!-- <div class="row"> --}}
+    <div class="col s12">
+      <div class="orderedbox">
+        <h2>Burgers ordered!</h2>
+        <ul>
+          {{#each burgerdb}}
+          {{#unless devoured}}
+          {{> b/b-block devoured=true}}
+          {{/unless}}
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+    <div class="col s12">
+
+      <div class="orderagainbox">
+        <h2>Do you want to order again?</h2>
+        <ul>
+          {{#each burgerdb}}
+          {{#if devoured}}
+          {{> b/b-block devoured=false}}
+          {{/if}}
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
