@@ -15,7 +15,7 @@
       <div class="orderedbox">
         <h2>Burgers ordered!</h2>
         <ul>
-          {{#each burgerdb}}
+          {{#each burger}}
           {{#unless devoured}}
           {{> b/b-block devoured=true}}
           {{/unless}}
@@ -28,7 +28,7 @@
       <div class="orderagainbox">
         <h2>Do you want to order again?</h2>
         <ul>
-          {{#each burgerdb}}
+          {{#each burger}}
           {{#if devoured}}
           {{> b/b-block devoured=false}}
           {{/if}}
@@ -37,3 +37,4 @@
       </div>
     </div>
   </div>
+{{!-- </div> --}}
