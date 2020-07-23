@@ -19,6 +19,8 @@ This web appliaction was built using these modules, frameworks, etc...
 
 MVC structure
 
+Languages that were used to create this restuarant app was:
+
 *MySQL
 *Sequelize
 *Materalize
