@@ -1,6 +1,6 @@
 Eat-Da-Burger is a restaurant app that was given for me to create as one of the Homework assignments for the Coding Bootcamp. 
 
-It allows users to input the names of their favorite burgers .
+It's purpose is to allow users to input the names of their favorite burgers to order again in the future if needed.
 
 How does it work?
 
